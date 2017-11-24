@@ -7,16 +7,10 @@
     -->
 
     <div class="logo">
-        <a href="http://www.creative-tim.com" class="logo-text">
-            Creative Tim
+        <a href="#" class="logo-text">
+            CWCCI
         </a>
     </div>
-<div class="logo logo-mini">
-  <a href="http://www.creative-tim.com" class="logo-text">
-    Ct
-  </a>
-</div>
-
   <div class="sidebar-wrapper">
         <div class="user">
             <div class="photo">
