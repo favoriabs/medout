@@ -43,8 +43,8 @@
                                     <label for="sex">Sex</label>
                                     <select class="form-control" name="sex">
                                       <option disabled>--Select Sex--</option>
-                                      <option value="male">Male</option>
-                                      <option value="female">Female</option>
+                                      <option value="male" @if($patient->sex == 'male') selected @endif>Male</option>
+                                      <option value="female" @if($patient->sex == 'female') selected @endif>Female</option>
                                     </select>
                                 </div>
                               </div>
@@ -53,12 +53,12 @@
                                     <label for="marital_status">Marital Status</label>
                                     <select class="form-control" name="marital_status">
                                       <option disabled>--Select Status--</option>
-                                      <option value="single">Single</option>
-                                      <option value="married">Married</option>
-                                      <option value="widow">Widow</option>
-                                      <option value="widowed">Widowed</option>
-                                      <option value="seperated">Seperated</option>
-                                      <option value="divorced">Divorced</option>
+                                      <option value="single" @if($patient->marital_status == 'single') selected @endif>Single</option>
+                                      <option value="married" @if($patient->marital_status == 'married') selected @endif>Married</option>
+                                      <option value="widow" @if($patient->marital_status == 'widow') selected @endif>Widow</option>
+                                      <option value="widower" @if($patient->marital_status == 'widower') selected @endif>Widowed</option>
+                                      <option value="seperated" @if($patient->marital_status == 'seperated') selected @endif>Seperated</option>
+                                      <option value="divorced" @if($patient->marital_status == 'divorced') selected @endif>Divorced</option>
                                     </select>
                                 </div>
                               </div>
@@ -85,19 +85,19 @@
                                     <label for="convert">Convert (Did this person get born again for the first time?)</label>
                                     <select class="form-control" name="convert">
                                       <option disabled>--Choose--</option>
-                                      <option value="yes">Yes</option>
-                                      <option value="no">No</option>
+                                      <option value="yes" @if($patient->convert == 'yes') selected @endif>Yes</option>
+                                      <option value="no" @if($patient->convert == 'no') selected @endif>No</option>
                                     </select>
                                 </div>
                               </div>
                               <div class="col-md-6">
                                 <div class="form-group">
                                   <label for="born_again">Born Again (Was this person born again already or rededicated his life?)</label>
-                                  <select class="form-control" name="convert">
+                                  <select class="form-control" name="born_again">
                                     <option disabled>--Choose--</option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                    <option value="rededicated">R/D</option>
+                                    <option value="yes" @if($patient->born_again == 'yes') selected @endif>Yes</option>
+                                    <option value="no" @if($patient->born_again == 'no') selected @endif>No</option>
+                                    <option value="rededicated" @if($patient->born_again == 'rededicated') selected @endif>R/D</option>
                                   </select>
                                 </div>
                               </div>

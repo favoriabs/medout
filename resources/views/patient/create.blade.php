@@ -93,7 +93,7 @@
                               <div class="col-md-6">
                                 <div class="form-group">
                                   <label for="born_again">Born Again (Was this person born again already or rededicated his life?)</label>
-                                  <select class="form-control" name="convert">
+                                  <select class="form-control" name="born_again">
                                     <option disabled>--Choose--</option>
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
