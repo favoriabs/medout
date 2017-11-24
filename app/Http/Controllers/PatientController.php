@@ -40,7 +40,8 @@ class PatientController extends Controller
 
     public function show($id)
     {
-        //
+        $patient = $this->repo->findById($id);
+        return view('patient.show')->with('patient', $patient);
     }
 
     public function edit($id)

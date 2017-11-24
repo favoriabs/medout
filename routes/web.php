@@ -25,3 +25,4 @@ Route::post('/patient/save', 'PatientController@store')->name('save_patient_reco
 Route::get('/patient/edit/{id}', 'PatientController@edit')->name('edit_patient');
 Route::post('/patient/update/{id}', 'PatientController@update')->name('update_patient_record');
 Route::get('/patient/delete/{id}', 'PatientController@delete')->name('delete_patient');
+Route::get('/patient/detail/{id}', 'PatientController@show')->name('view_details');

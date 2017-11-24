@@ -31,6 +31,7 @@
             <p>Create Record</p>
           </a>
         </li>
+        @yield('navbar')
       </ul>
     </div>
   </div>

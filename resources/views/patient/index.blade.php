@@ -32,7 +32,7 @@
                 <td>{{$patient->phone_number}}</td>
                 <td>{{$patient->sex}}</td>
                 <td>{{$patient->diagnosis}}</td>
-                <td><a class="btn-btn-primary" href="#">View Details</a></td>
+                <td><a class="btn-btn-primary" href="{{route('view_details', $patient->id)}}">View Details</a></td>
                 <td><a class="btn btn-warning" href="{{route('edit_patient', $patient->id)}}">Edit</a></td>
                 <td><a class="btn btn-danger" href="{{route('delete_patient', $patient->id)}}">Delete</a></td>
               </tr>
