@@ -51,5 +51,6 @@ class EloquentPatientRepository implements PatientContract {
       $patient->lab_done = $request->lab_done;
       $patient->welfare_given = $request->welfare_given;
       $patient->diagnosis = $request->diagnosis;
+      $patient->address_category = $request->address_category;
     }
 }

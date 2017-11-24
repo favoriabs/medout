@@ -34,6 +34,9 @@
                 <td>Age</td><td>{{$patient->occupation}}</td>
               </tr>
               <tr>
+                <td>Location</td><td>{{ucwords($patient->address_category)}}</td>
+              </tr>
+              <tr>
                 <td>Address</td><td>{{$patient->address}}</td>
               </tr>
               <tr>

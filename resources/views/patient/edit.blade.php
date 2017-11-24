@@ -73,6 +73,25 @@
                             <div class="row">
                               <div class="col-md-12">
                                 <div class="form-group">
+                                    <label for="convert">Address Area</label>
+                                    <select class="form-control" name="address_category">
+                                      <option disabled>--Choose--</option>
+                                      <option value="bukuru" @if($patient->address_category == 'bukuru') selected @endif>Bukuru</option>
+                                      <option value="rayfield" @if($patient->address_category == 'rayfield') selected @endif>Rayfield</option>
+                                      <option value="vitafoam" @if($patient->address_category == 'vitafoam') selected @endif>Vitafoam</option>
+                                      <option value="hwolshe" @if($patient->address_category == 'hwolshe') selected @endif>Hwolshe</option>
+                                      <option value="domkatbali" @if($patient->address_category == 'domkatbali') selected @endif>Domkat Bali</option>
+                                      <option value="millqtrs" @if($patient->address_category == 'millqtrs') selected @endif>Mill Qtrs</option>
+                                      <option value="abattoir" @if($patient->address_category == 'abattoir') selected @endif>Abattoir</option>
+                                      <option value="tudunwada" @if($patient->address_category == 'tudunwada') selected @endif>Tudun Wada</option>
+                                      <option value="others" @if($patient->address_category == 'others') selected @endif>Others</option>
+                                    </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="form-group">
                                     <label for="address">Address</label>
                                     <textarea name="address" rows="5" cols="80">{{$patient->address}}</textarea>
                                 </div>

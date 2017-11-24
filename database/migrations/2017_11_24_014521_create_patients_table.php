@@ -21,6 +21,7 @@ class CreatePatientsTable extends Migration
             $table->integer('age')->nullable();
             $table->string('occupation')->nullable();
             $table->text('address')->nullable();
+            $table->text('address_category')->nullable();
             $table->string('marital_status')->nullable();
             $table->string('convert')->nullable();
             $table->string('born_again')->nullable();

@@ -73,6 +73,26 @@
                             <div class="row">
                               <div class="col-md-12">
                                 <div class="form-group">
+                                    <label for="convert">Address Area</label>
+                                    <select class="form-control" name="address_category">
+                                      <option disabled>--Choose--</option>
+                                      <option value="bukuru">Bukuru</option>
+                                      <option value="rayfield">Rayfield</option>
+                                      <option value="vitafoam">Vitafoam</option>
+                                      <option value="hwolshe">Hwolshe</option>
+                                      <option value="domkat bali">Domkat Bali</option>
+                                      <option value="mill qtrs">Mill Qtrs</option>
+                                      <option value="abattoir">Abattoir</option>
+                                      <option value="tudunwada">Tudun Wada</option>
+                                      <option value="others">Others</option>
+                                    </select>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="form-group">
                                     <label for="address">Address</label>
                                     <textarea name="address" rows="5" cols="80"></textarea>
                                 </div>
