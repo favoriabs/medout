@@ -20,7 +20,7 @@
   <div class="sidebar-wrapper">
         <div class="user">
             <div class="photo">
-                <img src="../assets/img/default-avatar.png" />
+                <img src="{{asset('img/cwcci.jpg')}}" />
             </div>
             <div class="info">
                 <a data-toggle="collapse" href="#collapseExample" class="collapsed">
