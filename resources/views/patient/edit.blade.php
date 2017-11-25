@@ -56,7 +56,7 @@
                                       <option value="single" @if($patient->marital_status == 'single') selected @endif>Single</option>
                                       <option value="married" @if($patient->marital_status == 'married') selected @endif>Married</option>
                                       <option value="widow" @if($patient->marital_status == 'widow') selected @endif>Widow</option>
-                                      <option value="widower" @if($patient->marital_status == 'widower') selected @endif>Widowed</option>
+                                      <option value="widower" @if($patient->marital_status == 'widower') selected @endif>Widower</option>
                                       <option value="seperated" @if($patient->marital_status == 'seperated') selected @endif>Seperated</option>
                                       <option value="divorced" @if($patient->marital_status == 'divorced') selected @endif>Divorced</option>
                                     </select>

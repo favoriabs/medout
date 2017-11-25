@@ -56,7 +56,7 @@
                                       <option value="single">Single</option>
                                       <option value="married">Married</option>
                                       <option value="widow">Widow</option>
-                                      <option value="widowed">Widowed</option>
+                                      <option value="widower">Widower</option>
                                       <option value="seperated">Seperated</option>
                                       <option value="divorced">Divorced</option>
                                     </select>
